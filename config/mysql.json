@@ -1,0 +1,16 @@
+{
+    "dev": {
+      "database": "flight_system",
+      "host": "localhost",
+      "user": "root",
+      "password": "root",
+      "port": 3306,
+      "timeout": 60000
+    },
+    "stagin": {
+  
+    },
+    "productions": {
+  
+    }
+  }
