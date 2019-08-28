@@ -17,7 +17,7 @@ app.use(cors());
 app.use(helmet());
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json({ type: '*/*' }));
-// app.use(jwt({secret:'secret'}).unless({path: publicLinks}));
+app.use(jwt({secret:'secret'}).unless({path: publicLinks}));
 app.use(indexRouter);
 app.listen(port, () => console.log(`API is listening on ${port}`));
 
